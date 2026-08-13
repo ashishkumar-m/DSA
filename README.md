@@ -22,3 +22,9 @@ I want to build this in #BuildInPublic to make myself more accountable and celeb
 - Check if the current value is not equal to the `val`
 - - If `yes`, set `nums[k]` = `nums[i]`
 - Return the k+1 as it provides the number of elements other than the `val`.
+
+### 03.[Reverse String](https://leetcode.com/problems/reverse-string/)
+#### Solved at : "2026-08-13T18:38:29.237Z"
+- Initialize pointers `left` to left-most element of the array  and `right` to the right-most element of the array;
+- Swap the elements `arr[left] <=> arr[right]` using a `temp` variable or use `array destructuring` if choice of your language allows it;
+- Increment `left` and Decrement `right` by one. Stop when the `right <= left`; 
