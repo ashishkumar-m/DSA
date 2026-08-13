@@ -15,3 +15,10 @@ I want to build this in #BuildInPublic to make myself more accountable and celeb
     - If `yes`, we do nothing because the value has not changed
     - If `no`,  we increment the position of k where we replace the value of the `nums[k]` with the current value;
 
+### 02. [Remove Elements](https://leetcode.com/problems/remove-element/description/)
+#### Solved at : 2026-08-13T17:57:40.684Z
+- Initialize a pointer `k` to keep track of the slot where the number can be replaced
+- Loop through the array
+- Check if the current value is not equal to the `val`
+- - If `yes`, set `nums[k]` = `nums[i]`
+- Return the k+1 as it provides the number of elements other than the `val`.
