@@ -1,0 +1,21 @@
+{
+  "name": "dsa",
+  "version": "1.0.0",
+  "description": "This is a project in JavaScript primarily to learn Data Structures and Algorithms to come up with more intuitive and efficient solutions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "jest": "^30.4.2",
+    "lint-staged": "^17.3.0"
+  },
+  "allowScripts": {
+    "unrs-resolver@1.12.2": true
+  }
+}
