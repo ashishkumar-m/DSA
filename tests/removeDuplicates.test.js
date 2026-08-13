@@ -1,4 +1,4 @@
-const removeDuplicates = require('../src/removeDuplicates');
+const removeDuplicates = require('../src/01_removeDuplicates');
 
 describe('removeDuplicates', () => {
   test('should return 2 and modify array [1,1,2] to [1,2,_]', () => {
