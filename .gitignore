@@ -7,7 +7,7 @@ yarn-error.log*
 # Testing
 coverage/
 .nyc_output/
-
+.husky
 # IDE and Editor
 .vscode/
 .idea/
