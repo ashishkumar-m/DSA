@@ -24,7 +24,17 @@ I want to build this in #BuildInPublic to make myself more accountable and celeb
 - Return the k+1 as it provides the number of elements other than the `val`.
 
 ### 03.[Reverse String](https://leetcode.com/problems/reverse-string/)
-#### Solved at : "2026-08-13T18:38:29.237Z"
+#### Solved at : 2026-08-13T18:38:29.237Z
 - Initialize pointers `left` to left-most element of the array  and `right` to the right-most element of the array;
 - Swap the elements `arr[left] <=> arr[right]` using a `temp` variable or use `array destructuring` if choice of your language allows it;
-- Increment `left` and Decrement `right` by one. Stop when the `right <= left`; 
+- Increment `left` and Decrement `right` by one. Stop when the `right <= left`;
+
+### 04.[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
+#### Solved at: 2026-08-14T07:37:26.806Z
+- Initialize `minPrice` with `Infinity`(highest number) and `maxProfit` with `0`(lowest)
+- Loop through the `prices` array.
+    - Check if each `price` is lesser than the `minPrice`(We do this to keep track of stock at which the price is lowest to gain max Profit)
+        - if `yes`, re-assign `minPrice` with `price`
+    - Check if the `price - minPrice` is greater than `maxProfit`
+        - if `yes`, re-assign maxProfit with `price - minPrice`
+-Return `maxProfit`
